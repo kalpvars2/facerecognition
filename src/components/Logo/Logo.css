@@ -1,4 +1,9 @@
 .Tilt{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 150px;
+	width: 150px;
 	background:
     radial-gradient(black 3px, transparent 4px),
     radial-gradient(black 3px, transparent 4px),
@@ -10,8 +15,18 @@
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 
+.Tilt-inner{
+  	height: 75%;
+  	width: 75%;
+  }
+
 @media only screen and (max-width: 700px) {
   .Tilt{
-  	width: 50px;
+  	width: 75px;
+  	height: 75px;
+  }
+  .Tilt-inner{
+  	height: 75%;
+  	width: 75%;
   }
 }
