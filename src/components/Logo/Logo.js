@@ -6,7 +6,7 @@
  const Logo = () =>{
  	return (
  		<div>
- 			<Tilt className="Tilt br2 shadow-2" options={{ max : 45 }} >
+ 			<Tilt className="Tilt ml2 br2 shadow-2" options={{ max : 45 }} >
 				<div className="Tilt-inner" ><img src={logo} alt="Logo"/></div>
 			</Tilt>
  		</div>
